@@ -17,6 +17,20 @@ using namespace std;
   functions. You need to complete this driver according to the
   attributes you have implemented in your file system, before
   testing your program.
+  
+  
+  Required tests:
+  get and set on the fs1 on a file
+    and on a file that doesn't exist
+    and on a file in a directory in fs1
+    and on a file that doesn't exist in a directory in fs1
+
+ fs2, fs3
+  on a file both get and set on both fs2 and fs3
+
+  samples are provided below.  Use them and/or make up your own.
+
+
 */
 
 int main()

@@ -79,7 +79,7 @@ int main()
   r = c2->myFS->createFile(const_cast<char *>("/o/o/o/c"), 8);
   cout << "rv from createFile /o/o/o/c is " << r <<(r==0 ? " correct": " fail") <<endl;
   f1 = c2->myFS->openFile(const_cast<char *>("/o/o/o/c"), 8, 'w', -1);
-  cout << "rv from /o/o/o/b openFile is " << f1 << (f1>0 ? " correct": " fail")<< endl;
+  cout << "rv from /o/o/o/c openFile is " << f1 << (f1>0 ? " correct": " fail")<< endl;
   r = c2->myFS->writeFile(f1, buf2, 64);
   cout << "rv from writeFile /o/o/o/c is " << r <<(r==64 ? " correct write 64 Ts": " fail")<< endl;
   r = c2->myFS->writeFile(f1, buf3, 64);

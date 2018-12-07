@@ -1,5 +1,5 @@
 CC=g++
-#CFLAGS = -ggdb -Wall
+#CFLAGS = -ggdb 
 CFLAGS = 
 
 all: driver1 driver2 driver3 driver4 driver5 driver6

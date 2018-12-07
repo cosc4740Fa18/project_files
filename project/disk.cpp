@@ -27,7 +27,7 @@ int Disk::initDisk()
       cerr << "Error: Cannot create disk file" << endl;
       return(-1);
     }
-    for (int i = 0; i < diskSize; i++) f.put('c');
+    for (int i = 0; i < diskSize; i++) f.put('#');
     f.close();
     return(1);
   }

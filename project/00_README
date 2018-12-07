@@ -7,7 +7,7 @@ make bitvector_driver
 and to test with your own driver, edit the driver.cpp 
 make driver
 
-make clean to clean up (before emailing the project for example)
+make clean     to clean up (and before commits, so no .o file and complied code, and/or DISK1)
 
 Compile these files manually:
 g++ -c bitvector.cpp

@@ -24,12 +24,15 @@ void prtbv (unsigned int *bv, int length) {
 
 int main() {
 
-unsigned int val1, val2;
-char buffer[64];
+  unsigned int val1, val2;
+  char buffer[64];
 
-BitVector bv1(32), bv2(8);
+  BitVector bv1(32), bv2(8);
 
-val1 = 0;
+  //setup buffer with default value, so no junk in the bitvector
+  for (int j = 0; j < 64; j++) buffer[j] = '#';
+  val1 = 0;
+
 
   bv1.setBit(1);  //set position 1 to a 1
   bv1.setBit(2);  //set position 2 to a 1

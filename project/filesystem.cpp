@@ -70,7 +70,7 @@ int FileSystem::getAttribute(char *filename, int fnameLen /* ... and other param
 {
 
 }
-int setAttribute(char *filename, int fnameLen /* ... and other parameters as needed */)
+int FileSystem::setAttribute(char *filename, int fnameLen /* ... and other parameters as needed */)
 {
 
 }
